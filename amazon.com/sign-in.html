@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon.com</title>
+    <link  rel="icon" href="https://www.freeiconspng.com/uploads/apps-amazon-icon--flatwoken-iconset--alecive-2.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: arial;
+        }
+        .logo img{
+            display: flex;
+            margin: 10px auto;
+            width: 130px;
+            cursor: pointer;
+        }
+        .form-container{
+            width: 342px;
+            margin: 10px auto;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgba(128, 128, 128, 0.473);
+            padding: 20px 26px;
+        }
+       #input-search{
+        width: 100%;
+        padding: 6px;
+        margin-top: 3px;
+        margin-bottom: 14px;
+        
+       }
+       #input-search:hover{
+         outline: 2px solid rgb(7, 112, 250);
+       }
+       .form-container h1{
+        font-size: 28px;
+        font-weight: 2;
+        margin-bottom: 14px;
+       }
+       .continue{
+        width: 100%;
+        padding: 7px;
+        border-radius: 50px;
+        background-color: rgb(247, 202, 0);
+        border: 0;
+        margin-bottom: 16px;
+        cursor: pointer;
+       
+       }
+       label{
+        font-size: 14px;
+        font-weight: bold;
+       }
+       p{
+        font-size: 12px;
+       }
+       .help{
+        margin-top: 15px;
+       }
+       .help a {
+       font-size: 14px;
+        text-decoration: 0;
+        transition: 0.5s;
+       } 
+       .help a:hover{
+        width: 29%;
+        border-bottom: 1px solid black;
+         transition: 0.5s;
+         color: rgb(90, 83, 83);
+       }
+       .new{
+        width: 342px;
+        margin: 10px auto;
+        margin-top: 20px;
+       }
+       .new p{
+        font-size: 11px;
+        color: gray;
+       }
+       .create{
+        width: 342px;
+        margin: 0px auto;
+        padding: 6px;
+        border-radius: 50px;
+        border: 1;
+        outline: 0;
+        font-size: 13px;
+        cursor: pointer;
+       }
+       .line{
+        width: 98%;
+        height: 1px;
+        background-color: #adadad;
+        margin-top: 24px;
+       }
+
+       .terms{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 26px;
+        font-size: 12px;
+        margin-top: 25px;
+       
+       }
+       .terms a{
+         text-decoration: 0;
+           border-bottom: 1px solid transparent;
+       }
+       .terms a:hover{
+        border-bottom: 1px solid gray;
+        color: rgb(71, 63, 63);
+
+       }
+       .sign-copy{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 17px;
+        color: rgb(122, 110, 110);
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+   <div class="logo">
+   <img src="imagee.png" alt="kei nai">
+   </div>
+
+    <form> 
+        <div class="form-container">
+            <h1>Sign in</h1>
+
+          <div class="inputfield">
+            <label for="Email or mobile phone number">Email or mobile phone number</label>
+            <input type="Email" id="input-search" required>
+          </div>
+          <button type="submit" class="continue">Continue</button>
+
+          <p>By continuing you agree to Amazon's <a href="#">Conditions of use</a> and <a href="#">Privacy Notice</a></p>
+         
+          <div class="help">
+            <a href="#"><i class="ri-arrow-down-s-line"></i>Need help ?</a>
+          </div>
+        </div>
+    </form>
+
+    <div class="new">
+     <p>_______________________New to Amazon?___________________</p>
+    </div>
+
+    <div class="create">
+        <button class="create">Create your Amazon account</button>
+    </div>
+
+    <div class="line">
+ <!-- line ko lagi  -->
+    </div>
+  
+    <div class="terms">
+        <a href="#">Conditions of use</a>
+           <a href="#">Policy Notice</a>
+              <a href="#">Help</a>
+    </div>
+
+    <div class="sign-copy">
+  <p>&copy; 1996-2025 Amazon.com inc or its affiliates</p>
+    </div>
+    </div>
+</body>
+</html>
